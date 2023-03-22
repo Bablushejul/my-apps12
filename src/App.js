@@ -14,7 +14,7 @@ return response.json();
         return{
         id:moviedata.episode_id,
         title:moviedata.title,
-        opening_text:moviedata.opening_crawl,
+        openingText:moviedata.opening_crawl,
         release_date:moviedata.release_date
         }
 
